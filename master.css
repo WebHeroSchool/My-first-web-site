@@ -1,16 +1,16 @@
 .logo {
   color: skyblue
 }
-.menu {
+.menu  {
   font-family: "fanatasy";
   color: red
 }
-.head{
-  font-family: "manospase";
+.header{
+  font-family: "Lobster";
   color: blue
 }
 .title{
-  font-family:"monospase", cursive
+  font-family:"Caveat", cursive
 }
 .button{
   font-family:"fantasy",cursive;
