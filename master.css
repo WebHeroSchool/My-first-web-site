@@ -1,10 +1,10 @@
 .header__logo {
   color: skyblue;
-  font-size: 20px
+  font-size: 20px;
 }
 .header__menu  {
   font-family: "fanatasy";
-  color: red
+  color: red;
 }
 .menu__item{
  text-decoration: 2px underline #528;
