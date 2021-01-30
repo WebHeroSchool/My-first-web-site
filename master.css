@@ -1,28 +1,49 @@
 .logo {
   color: skyblue;
-  font-size: 20px;
+  font-size: 20px
 }
 .menu  {
   font-family: "fanatasy";
   color: red
 }
-.header{
-.header__menu  {
-  font-family: "fanatasy";
-  color: red;
-}
-.menu__item{
- text-decoration: 2px underline #528;
+.menu__item_underline{
+ text-decoration: 2px underline #528
 }
 .main-content__title{
   font-family: "Lobster";
-  color: blue;
+  color: blue
 }
 .main-content__description{
-  font-family:"Caveat", cursive;
+  font-family:"Caveat", cursive
 }
 .main-content__button{
   font-family:"fantasy",cursive;
   color: purple;
    background:skyblue;
+}
+.wrapper{
+    margin: auto;
+ width: 80%;
+ border:dashed 1px red ;
+}
+.header{
+  border: dashed 1px red;
+}
+.logo, .menu{
+  display: inline-block;
+}
+.logo{
+    margin-right: 63%;
+   padding: 40px 0;
+}
+.header{
+  display: flex;
+  justify-content: flex-between: ;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__item{
+  padding: 0 13px;
 }
