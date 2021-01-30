@@ -4,6 +4,11 @@
 }
 .menu  {
   font-family: "fanatasy";
+  color: red
+}
+.header{
+.header__menu  {
+  font-family: "fanatasy";
   color: red;
 }
 .menu__item{
