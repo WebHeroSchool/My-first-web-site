@@ -1,22 +1,22 @@
-.header__logo {
+.logo {
   color: skyblue;
   font-size: 20px;
 }
-.header__menu  {
+.menu  {
   font-family: "fanatasy";
   color: red;
 }
 .menu__item{
  text-decoration: 2px underline #528;
 }
-.header__title{
+.main-content__title{
   font-family: "Lobster";
   color: blue;
 }
-.header__subtitle{
+.main-content__dicription{
   font-family:"Caveat", cursive;
 }
-.button{
+.main-content__button{
   font-family:"fantasy",cursive;
   color: purple;
    background:skyblue;
