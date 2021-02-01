@@ -24,19 +24,17 @@
 .wrapper{
     margin: auto;
  width: 80%;
- border:dashed 1px red ;
 }
 .header{
-  border: dashed 1px red;
   padding: 40px 0;
 }
 .logo, .menu{
   display: inline-block;
 }
 .logo{
-  margin-right: 63%;
+  margin-right: 54%;
    /*padding: 40px 0;*/
-   width: 195px;
+   width: 190px;
    height: 35px;
    background:url(img/logo.svg)
 }
