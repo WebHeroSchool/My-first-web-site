@@ -23,7 +23,8 @@
 }
 .wrapper{
     margin: auto;
- width: 80%;
+ width: 85%;
+ border:dashed 1px red ;
 }
 .header{
   padding: 40px 0;
