@@ -1,7 +1,7 @@
-.logo {
+/*.logo {
   color: skyblue;
   font-size: 20px
-}
+}*/
 .menu  {
   font-family: "fanatasy";
   color: red
@@ -28,13 +28,17 @@
 }
 .header{
   border: dashed 1px red;
+  padding: 40px 0;
 }
 .logo, .menu{
   display: inline-block;
 }
 .logo{
-    margin-right: 63%;
-   padding: 40px 0;
+  margin-right: 63%;
+   /*padding: 40px 0;*/
+   width: 195px;
+   height: 35px;
+   background:url(img/logo.svg)
 }
 .header{
   display: flex;
