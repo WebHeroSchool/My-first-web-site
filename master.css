@@ -3,18 +3,25 @@
   font-size: 20px
 }*/
 .menu  {
-  font-family: "fanatasy";
-  color: red
+  display: flex;
+  align-items: center;
+  border: dashed 1px yellow;
 }
-.menu__item_second{
- text-decoration: 2px underline #528
+.menu__item_active::after{
+position: absolute;
+display: block;
+content:'';
+left: 0;
+width: 100%;
+height: 3px;
+background: #0056ec;
 }
 .main-content__title{
   font-family: "Lobster";
-  color: blue
+  color: blue;
 }
 .main-content__description{
-  font-family:"Caveat", cursive
+  font-family:"Caveat", cursive;
 }
 .main-content__button{
   font-family:"fantasy",cursive;
@@ -27,13 +34,14 @@
  border:dashed 1px red ;
 }
 .header{
+  border: dashed 1px red;
   padding: 40px 0;
 }
 .logo, .menu{
   display: inline-block;
 }
 .logo{
-  margin-right: 54%;
+  margin-right: 52%;
    /*padding: 40px 0;*/
    width: 190px;
    height: 35px;
@@ -43,10 +51,33 @@
   display: flex;
   justify-content: flex-between: ;
 }
-.menu {
-  display: flex;
-  align-items: center;
-}
 .menu__item{
-  padding: 0 13px;
+  position: relative;
+  margin-right: 26px;
+  font:500 14px/16px Roboto,arial,helvetica,sans-serif;
+  color:#000;
+  text-decoration: none;
+  transition: opacity .5s;
+}
+.menu__item:last-child{
+  margin-right: 0;
+}
+.menu__item:hover{
+  opacity:1;
+  color: #0000ff;
+  transition: opacity .5s;
+}
+.menu__item::after{
+  position: absolute;
+  display: block;
+  content:'';
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #0056ec;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.menu__item:hover::after, .menu__item_active::after{
+  opacity: 1
 }
