@@ -1,11 +1,9 @@
-/*.logo {
-  color: skyblue;
-  font-size: 20px
-}*/
+body{
+  margin: 0;
+}
 .menu  {
   display: flex;
   align-items: center;
-  border: dashed 1px yellow;
 }
 .menu__item_active::after{
 position: absolute;
@@ -16,44 +14,28 @@ width: 100%;
 height: 3px;
 background: #0056ec;
 }
-.main-content__title{
-  font-family: "Lobster";
-  color: blue;
-}
-.main-content__description{
-  font-family:"Caveat", cursive;
-}
-.main-content__button{
-  font-family:"fantasy",cursive;
-  color: purple;
-   background:skyblue;
-}
 .wrapper{
-    margin: auto;
- width: 85%;
- border:dashed 1px red ;
+ margin: auto;
+ width: 69%;
 }
 .header{
-  border: dashed 1px red;
-  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 95px;
+  padding:40px 0;
 }
 .logo, .menu{
   display: inline-block;
 }
 .logo{
-  margin-right: 52%;
-   /*padding: 40px 0;*/
+   margin-right: 45%;
    width: 190px;
    height: 35px;
-   background:url(img/logo.svg)
-}
-.header{
-  display: flex;
-  justify-content: flex-between: ;
+   background:no-repeat url(img/logo.svg);
 }
 .menu__item{
   position: relative;
-  margin-right: 26px;
+  margin-right: 24px;
   font:500 14px/16px Roboto,arial,helvetica,sans-serif;
   color:#000;
   text-decoration: none;
@@ -81,3 +63,37 @@ background: #0056ec;
 .menu__item:hover::after, .menu__item_active::after{
   opacity: 1
 }
+.main__title{
+  margin:0 0 40px 0;
+  font:700 50px/66px pt_serifbold,normal,bold;
+  width: 434px;
+  height: 195px;
+}
+.main__description{
+  margin:0 0 41px 0;
+  font:500 18px/21px Roboto,arial,helvetica,sans-serif;
+  width: 367px;
+  height: 43px;
+  margin-bottom: 40px;
+}
+.main__button{
+  position: relative;
+  font:500 14px/16px Roboto,arial,helvetica,sans-serif;
+  color: #ffffff;
+  border-radius: 4px;
+  background: #0056ec;
+  padding: 14px 20px;
+  text-decoration:none;
+  transition:opacity .5s;
+}
+.main__button:hover{
+  opacity: .5;
+}
+.main{
+  padding:0 62% 85px 0;
+  background:top right no-repeat url(img/main-img.svg);
+}
+.main__title-text_highlight{
+  background: #ecf3ff;
+}
+
