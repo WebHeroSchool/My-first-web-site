@@ -91,7 +91,7 @@ background: #0056ec;
 }
 .main{
   padding:0 62% 85px 0;
-  background:top right no-repeat url(img/main-img.svg);
+  background:top right no-repeat url(img/main_img.svg);
 }
 .main__title-text_highlight{
   background: #ecf3ff;
