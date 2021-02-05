@@ -4,6 +4,7 @@ body{
 .menu  {
   display: flex;
   align-items: center;
+  padding: 7px 0;
 }
 .menu__item_active::after{
 position: absolute;
@@ -22,21 +23,20 @@ background: #0056ec;
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 95px;
   padding:40px 0;
 }
 .logo, .menu{
   display: inline-block;
 }
 .logo{
-   margin-right: 62%;
+   margin-right: 61%;
    width: 205px;
    height: 35px;
    background:no-repeat url(img/logo.svg);
 }
 .menu__item{
   position: relative;
-  margin-right: 25px;
+  margin-right: 23px;
   font:500 18px/21px Roboto,arial,helvetica,sans-serif;
   color:#000;
   text-decoration: none;
@@ -66,7 +66,7 @@ background: #0056ec;
 }
 .main__title{
   margin:0 0 40px 0;
-  font:700 66px/87px pt_serifbold,normal,bold;
+  font:500 66px/87px pt_serifbold,normal,bold;
   width: 567px;
   height: 255px;
 }
@@ -91,9 +91,10 @@ background: #0056ec;
   opacity: .5;
 }
 .main{
-  padding:100px 62% 100px 0;
+  margin-right:9px;
+  margin-top: 108px;
+  padding:72px 62% 200px 0;
   background:top right no-repeat url(img/main-img.svg);
 }
 .main__title-text_highlight{
   background: #ecf3ff;
-}
