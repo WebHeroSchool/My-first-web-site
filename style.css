@@ -18,7 +18,6 @@ background: #0056ec;
 .wrapper{
  margin: auto;
  width: 80%;
- border: dashed 1px red;
 }
 .header{
   display: flex;
@@ -65,7 +64,7 @@ background: #0056ec;
   opacity: 1
 }
 .main__title{
-  margin:0 0 40px 0;
+  margin:0 0 41px 0;
   font:500 66px/87px pt_serifbold,normal,bold;
   width: 567px;
   height: 255px;
