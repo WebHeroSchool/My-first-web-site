@@ -16,7 +16,8 @@ background: #0056ec;
 }
 .wrapper{
  margin: auto;
- width: 69%;
+ width: 80%;
+ border: dashed 1px red;
 }
 .header{
   display: flex;
@@ -28,21 +29,21 @@ background: #0056ec;
   display: inline-block;
 }
 .logo{
-   margin-right: 45%;
-   width: 190px;
+   margin-right: 62%;
+   width: 205px;
    height: 35px;
    background:no-repeat url(img/logo.svg);
 }
 .menu__item{
   position: relative;
-  margin-right: 24px;
-  font:500 14px/16px Roboto,arial,helvetica,sans-serif;
+  margin-right: 25px;
+  font:500 18px/21px Roboto,arial,helvetica,sans-serif;
   color:#000;
   text-decoration: none;
   transition: opacity .5s;
 }
 .menu__item:last-child{
-  margin-right: 0;
+  padding-right: 0;
 }
 .menu__item:hover{
   opacity:1;
@@ -65,24 +66,24 @@ background: #0056ec;
 }
 .main__title{
   margin:0 0 40px 0;
-  font:700 50px/66px pt_serifbold,normal,bold;
-  width: 434px;
-  height: 195px;
+  font:700 66px/87px pt_serifbold,normal,bold;
+  width: 567px;
+  height: 255px;
 }
 .main__description{
   margin:0 0 41px 0;
-  font:500 18px/21px Roboto,arial,helvetica,sans-serif;
-  width: 367px;
-  height: 43px;
-  margin-bottom: 40px;
+  font:500 22px/26px Roboto,arial,helvetica,sans-serif;
+  width: 455px;
+  height: 52px;
+  margin-bottom: 41px;
 }
 .main__button{
   position: relative;
-  font:500 14px/16px Roboto,arial,helvetica,sans-serif;
+  font:500 18px/21px Roboto,arial,helvetica,sans-serif;
   color: #ffffff;
   border-radius: 4px;
   background: #0056ec;
-  padding: 14px 20px;
+  padding: 18px 25px;
   text-decoration:none;
   transition:opacity .5s;
 }
@@ -90,10 +91,9 @@ background: #0056ec;
   opacity: .5;
 }
 .main{
-  padding:0 62% 85px 0;
-  background:top right no-repeat url(img/main_img.svg);
+  padding:100px 62% 100px 0;
+  background:top right no-repeat url(img/main-img.svg);
 }
 .main__title-text_highlight{
   background: #ecf3ff;
 }
-
