@@ -35,7 +35,7 @@ background: #0056ec;
 }
 .menu__item{
   position: relative;
-  margin-right: 23px;
+  margin-right: 22px;
   font:500 18px/21px Roboto,arial,helvetica,sans-serif;
   color:#000;
   text-decoration: none;
@@ -140,7 +140,7 @@ background: #0056ec;
  }
  .logo{
    padding-right: 13%;
-   margin-left: -5%;
+   margin-left: -14%;
    width: 5px;
    height: 35px;
  }
@@ -151,9 +151,9 @@ background: #0056ec;
  }
  .main{
    text-align: center;
-   padding: 87% 19px 0 ;
+   padding: 103% 0 0 ;
    margin: -27px 0 0;
-   background-size: 95%;
+   background-size: 111%;
    background-position: top center;
  }
  .main__title{
