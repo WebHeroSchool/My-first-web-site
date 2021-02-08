@@ -4,11 +4,7 @@ body{
 .menu  {
   display: flex;
   align-items: center;
-<<<<<<< Updated upstream
-  padding: 7px 0;
-=======
   padding: 8px 0;
->>>>>>> Stashed changes
 }
 .menu__item_active::after{
 position: absolute;
@@ -101,8 +97,6 @@ background: #0056ec;
 }
 .main__title-text_highlight{
   background: #ecf3ff;
-<<<<<<< Updated upstream
-=======
 }
 @media (min-width:768px){
 .burger-menu{
@@ -145,7 +139,7 @@ background: #0056ec;
   display:none;
  }
  .logo{
-   padding-right: 11%;
+   padding-right: 13%;
    margin-left: -5%;
    width: 5px;
    height: 35px;
@@ -265,4 +259,3 @@ background: #0056ec;
   font:500 30px/35px Roboto,arial,helvetica,sans-serif;
 }
 }
->>>>>>> Stashed changes
