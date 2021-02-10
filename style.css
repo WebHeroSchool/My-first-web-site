@@ -134,7 +134,18 @@ background: #0056ec;
   background:top right no-repeat url(img/main_img.svg);
 }
 }
+@media(max-width:1025px){
+  .wrapper{
+    width: 91%;
+  }
+  .logo{
+    padding-right: 47%;
+  }
+}
 @media (max-width:768px){
+  .wrapper{
+    width: 68%;
+  }
  .menu{
   display:none;
  }
@@ -143,6 +154,7 @@ background: #0056ec;
    margin-left: -14%;
    width: 5px;
    height: 35px;
+   background: no-repeat url(img/logo-mobile.svg);
  }
  .header{
    /*padding-right: 87%;*/
@@ -151,20 +163,20 @@ background: #0056ec;
  }
  .main{
    text-align: center;
-   padding: 103% 0 0 ;
-   margin: -27px 0 0;
-   background-size: 111%;
+   padding: 101% 0 0 ;
+   margin: -22px 0 0;
+   background-size: 108%;
    background-position: top center;
  }
  .main__title{
-   margin-bottom: 32px;
+   padding-bottom: 3px;
    font:bold 30px/40px pt_serifbold, normal,bold;
    width: 267px;
    height: 96px;
  }
  .main__description{
-   padding-top: 10%;
-   margin-left: -1%;
+   padding-top: 6%;
+   margin-left: -2%;
    margin-bottom: 22px;
    font:500 16px/18px Roboto,arial,helvetica,sans-serif;
    width: 275px;
@@ -212,10 +224,10 @@ background: #0056ec;
   visibility: hidden;
   top: 0;
   right: -100%;
-  width: 300px;
+  width: 100%;
   height: 100%;
   margin: 0;
-  padding: 47% 10%;
+  padding: 47% 0;
   list-style: none;
   text-align: center;
   background-color: #ECEFF1;
