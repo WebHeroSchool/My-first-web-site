@@ -98,7 +98,7 @@ background: #0056ec;
 .main__title-text_highlight{
   background: #ecf3ff;
 }
-@media (min-width:769px){
+@media (min-width:960px){
 .burger-menu{
   display: none;
 }
@@ -134,15 +134,19 @@ background: #0056ec;
   background:top right no-repeat url(img/main_img.svg);
 }
 }
-@media(max-width:1025px){
+@media(max-width:1365px){
   .wrapper{
     width: 91%;
   }
   .logo{
     padding-right: 47%;
   }
+  @media(max-width: 1023px){
+    .logo{
+      padding-right: 43%;
+  }
 }
-@media (max-width:768px){
+@media (max-width:959px){
   .wrapper{
     width: 69%;
   }
@@ -150,7 +154,7 @@ background: #0056ec;
   display:none;
  }
  .logo{
-   padding-right: 13%;
+   padding-right: 20%;
    margin-left:-14%;
    width: 5px;
    height: 35px;
