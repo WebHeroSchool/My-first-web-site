@@ -134,7 +134,7 @@ background: #0056ec;
   background:top right no-repeat url(img/main_img.svg);
 }
 }
-@media(max-width:1025px){
+@media(max-width:1365px){
   .wrapper{
     width: 91%;
   }
