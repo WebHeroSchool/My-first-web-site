@@ -86,7 +86,6 @@ background: #0056ec;
   cursor: pointer;
   text-decoration:none;
   overflow: hidden;
-  /*transition:opacity .5s;*/
 }
 .main__button:hover:before{
   content: '';
@@ -95,10 +94,9 @@ background: #0056ec;
    position: absolute;
    top: 0; left: 0;
    opacity: 0.5;
-   filter: blur;
    background: linear-gradient(to left, transparent 0%, #fff 40%, #fff 60%, transparent 100%);
    transform: translate(-100%, -25%) rotate(10deg);
-   animation: move-light .5s ;
+   animation: move-light 2s;
  }
  @keyframes move-light {
    0% {
