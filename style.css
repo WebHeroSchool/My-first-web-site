@@ -175,7 +175,7 @@ background: #0056ec;
  }
  .logo{
    padding-right: 20%;
-   margin-left:-14%;
+   margin-left:-13%;
    width: 5px;
    height: 35px;
    background: no-repeat url(img/logo-mobile.svg);
@@ -187,8 +187,8 @@ background: #0056ec;
  .main{
    text-align: center;
    padding: 100% 0 0 ;
-   margin: -22px 0 0;
-   background-size: 107%;
+   margin: -22px -6px 0;
+   background-size: 103%;
    background-position: top center;
  }
  .main__title{
@@ -200,7 +200,7 @@ background: #0056ec;
    height: 96px;
  }
  .main__description{
-   padding-top: 6%;
+   padding-top: 5%;
    margin-right: auto;
    margin-left: auto;
    margin-bottom: 22px;
