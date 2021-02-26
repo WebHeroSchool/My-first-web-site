@@ -296,4 +296,7 @@ background: #0056ec;
 .menu__item{
   font:500 30px/35px Roboto,arial,helvetica,sans-serif;
 }
+.main__button:hover::before{
+  display: none;
+}
 }
